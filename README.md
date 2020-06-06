@@ -1,6 +1,6 @@
 # m4-hw4-negron-angel
-##Issues
+## Issues
 none. 
 
-##Sources
+## Sources
 Used lecture and Big Book of Javascript as reference material.
