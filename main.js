@@ -9,5 +9,20 @@ var pizza = {
     }
 };
 
-//call the addtoppings method and function
-pizza.addToppings();
+
+//create new function 'orderPizza'
+function orderPizza() {
+    console.log(pizza.crust);
+    console.log(pizza.cheese);
+    console.log(pizza.sauce);
+    pizza.addToppings();
+    /* 
+    //trying to do this with a for loop ..but above is not an array.. i tried.
+    for (i = 0; i < 4; i++) {
+        console.log(pizza.addToppings);
+    }
+    */
+}
+
+//invoke function
+orderPizza();
